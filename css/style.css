@@ -1,0 +1,57 @@
+header{
+    height: 15vh;
+    /* border: 1px solid; */
+}
+.tam-equi img{
+    width: 50px;
+}
+.tam-equi p{
+    font-size: 15px;
+}
+#vs{
+    display: flex;
+    align-items: center;
+}
+.btn-pad{
+    margin: 1rem;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.gaps{
+    display: flex;
+    gap: 2rem;
+}
+.cate{
+    height: 15vh;
+    align-items: center;
+    /* border: 1px solid; */
+}
+main{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    height: 70vh;
+}
+footer{
+    margin-top: 20vh;
+}
+.texts a{
+    text-decoration: none;
+    color: black;
+}
+.img-transmicion img{
+    width: 500px;
+}
+@media (max-width: 410px) {
+    article a{
+        display: none;
+    }
+}
+@media (max-width: 350px) {
+    .cate div{
+        display: none;
+    }
+
+}
